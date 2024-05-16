@@ -1,6 +1,6 @@
 import {renderHook} from '@testing-library/react'
 import '@testing-library/jest-dom'
-import { useLoggingHook } from './MountUnmountHook_Canonical';
+import { useLoggingHook } from './MountUnmountHook_GroundTruth';
 
 describe('Eval_MountUnmountHOok', () => {
 	test('logs to console the mount event', () => {
