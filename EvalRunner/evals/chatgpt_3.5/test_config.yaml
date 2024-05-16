@@ -1,0 +1,11 @@
+model:
+  name: gpt-3.5-turbo
+  temperature: 0.2
+  repetition_penalty: 1
+
+steps:
+  - name: copy_test_suite
+  - name: run_completions
+  - name: run_metrics_evaluation
+    metrics: [test_metrics]
+  - name: build_report
